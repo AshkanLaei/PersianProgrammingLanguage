@@ -224,8 +224,9 @@ if __name__ == '__main__':
 	env = {}
 	if len(argv) < 2:
 		print('باید آدرس فایل برنامه را به‌عنوان آرگومنت به برنامه بدهید.')
-	with open(argv[1], encoding="utf-8") as f:
-		for line in f.read().splitlines():
-			tokens = lexer.tokenize(line)
-			tree = parser.parse(tokens)
-			PPLExecute(tree, env)
+	else :
+		with open(argv[1], encoding="utf-8") as f:
+			for line in f.read().splitlines():
+				tokens = lexer.tokenize(line)
+				tree = parser.parse(tokens)
+				PPLExecute(tree, env)
