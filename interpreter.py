@@ -34,6 +34,11 @@ class PPLLexer(Lexer):
 	def COMMENT(self, t):
 		pass
 
+	
+	@_(r'//.*')
+	def COMMENT(self, t):
+		pass
+	
 	@_(r'\n+')
 	def newline(self, t):
 		self.lineno = t.value.count('\n')
