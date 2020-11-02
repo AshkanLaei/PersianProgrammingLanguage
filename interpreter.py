@@ -258,4 +258,16 @@ if __name__ == '__main__':
 			print("فایل مورد نظر وجود ندارد")
 			
 	else:
-		print('فایل باید دارای پسوند fd باشد')
+		try:
+			filename = argv[1] + '.fd'
+			with open(filename, encoding="utf-8") as f:
+				for line in f.read().splitlines():
+					try:
+						tokens = lexer.tokenize(line)
+						tree = parser.parse(tokens)
+						PPLExecute(tree, env)
+					except:
+						print("دستور نادرست: %s" % line)
+						quit()
+		except:
+			print('فایل باید دارای پسوند fd باشد')
