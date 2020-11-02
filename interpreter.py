@@ -23,7 +23,7 @@ class PPLLexer(Lexer):
 	RAW_INPUT = r'ورودی'
 	NUM_INPUT = r'عددگیر'
 	NAME = r'[آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی]+'
-	STRING = r'"(""|.)*?"'
+	STRING = r'"(«»|.)*?"'
 
 	@_(r'\d+')
 	def NUMBER(self, t):
