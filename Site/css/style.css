@@ -2,42 +2,42 @@
   font-family: iransansdn;
   font-style : normal;
   font-weight: bold;
-  src        : url("../fonts/eot/iransansdnbold.eot");
-  src        : url("../fonts/eot/iransansdnbold.eot?#iefix") format("embedded-opentype"),
+  src        : url("../fonts/IranSansDN/eot/iransansdnbold.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdnbold.eot?#iefix") format("embedded-opentype"),
     /* IE6-8 */
-    url("../fonts/woff2/iransansdnbold.woff2") format("woff2"),
+    url("../fonts/IranSansDN/woff2/iransansdnbold.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
-    url("../fonts/woff/iransansdnbold.woff") format("woff"),
+    url("../fonts/IranSansDN/woff/iransansdnbold.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("../fonts/ttf/iransansdnbold.ttf") format("truetype");
+    url("../fonts/IranSansDN/ttf/iransansdnbold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: iransansdn;
   font-style : normal;
   font-weight: 300;
-  src        : url("../fonts/eot/iransansdnlight.eot");
-  src        : url("../fonts/eot/iransansdnlight.eot?#iefix") format("embedded-opentype"),
+  src        : url("../fonts/IranSansDN/eot/iransansdnlight.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdnlight.eot?#iefix") format("embedded-opentype"),
     /* IE6-8 */
-    url("../fonts/woff2/iransansdnlight.woff2") format("woff2"),
+    url("../fonts/IranSansDN/woff2/iransansdnlight.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
-    url("../fonts/woff/iransansdnlight.woff") format("woff"),
+    url("../fonts/IranSansDN/woff/iransansdnlight.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("../fonts/ttf/iransansdnlight.ttf") format("truetype");
+    url("../fonts/IranSansDN/ttf/iransansdnlight.ttf") format("truetype");
 }
 
 @font-face {
   font-family: iransansdn;
   font-style : normal;
   font-weight: normal;
-  src        : url("../fonts/eot/iransansdn.eot");
-  src        : url("../fonts/eot/iransansdn.eot?#iefix") format("embedded-opentype"),
+  src        : url("../fonts/IranSansDN/eot/iransansdn.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdn.eot?#iefix") format("embedded-opentype"),
     /* IE6-8 */
-    url("../fonts/woff2/iransansdn.woff2") format("woff2"),
+    url("../fonts/IranSansDN/woff2/iransansdn.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/
-    url("../fonts/woff/iransansdn.woff") format("woff"),
+    url("../fonts/IranSansDN/woff/iransansdn.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("../fonts/ttf/iransansdn.ttf") format("truetype");
+    url("../fonts/IranSansDN/ttf/iransansdn.ttf") format("truetype");
 }
 
 * {
