@@ -1,10 +1,18 @@
-# To contributing this project :
-- 1 . Read issues or create new
-- 2 . Fork project and change the code
-- 3 . Send Pull request
----
-## Testing
-Testing is important. surely run `python3 test.py` command after your changes.
-also try to write/edit tests to sync them with your changes.
+<div dir=rtl>
+  
+# برای کمک به پروژه:
 
-Thank you for helping to this project!
+- 1 . مشکلات و ایده ها را بخوانید یا یکی درست کنید
+- 2 . پروژه را فورک کنید و تغییرات خود را اعمال کنید
+- 3 . پول ریکوئست بفرستید
+---
+
+## تست ها
+همیشه پس از انجام تغییراتتان دستور
+`python3 test.py`
+را برای اجرای تست ها اجرا کنید.
+همچنین سعی کنید مطابق با تغییراتتان تست ها را اضافه یا ویرایش کنید.
+
+## اخطار : پول ریکوئست شما نباید مشکلی در ادغام به پروژه اصلی داشته باشد
+ممنون بخاظر کمک به پروژه
+</div>
