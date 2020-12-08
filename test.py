@@ -46,9 +46,9 @@ Structure:
 
 if os.name == 'nt':
     # is windows
-    interpreter_cmd = ['python', 'interpreter.py']
+    interpreter_cmd = ['python', 'ferdowsi.py']
 else:
-    interpreter_cmd = ['python3', 'interpreter.py']
+    interpreter_cmd = ['python3', 'ferdowsi.py']
 
 print('Running tests...')
 

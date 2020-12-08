@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 </div>
 
 ```
-python3 interpreter.py <آدرس فایل>
+python3 ferdowsi.py <آدرس فایل>
 ```
 
 <div dir="rtl">
@@ -26,7 +26,7 @@ python3 interpreter.py <آدرس فایل>
 </div>
 
 ```
-python3 interpreter.py examples/helloworld.fd
+python3 ferdowsi.py examples/helloworld.fd
 ```
 <div dir="rtl">
 
@@ -36,7 +36,7 @@ python3 interpreter.py examples/helloworld.fd
 </div>
   
 ```
-python3 interpreter.py
+python3 ferdowsi.py
 ```
 <div dir="rtl">
 
